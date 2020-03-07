@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main()
+{
+    float principal_amt, rate, simple_interest;
+    int time;
+ 
+    printf("Enter the values of principal_amt, rate and time \n");
+    scanf("%f %f %d", &principal_amt, &rate, &time);
+    simple_interest = (principal_amt * rate * time) / 100.0;
+    printf("Amount = Rs. %f\n", principal_amt);
+    printf("Rate = Rs. %f%\n", rate);
+    printf("Time = %d years\n", time);
+    printf("Simple interest = %f\n", simple_interest);
+}
